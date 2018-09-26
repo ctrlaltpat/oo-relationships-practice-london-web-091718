@@ -40,7 +40,34 @@ stay9 = Trip.new("April 15th - April 30th 2021", can, rick)
 #-------------------- testing lyft ------------------------
 
 #-------------------- testing gym ------------------------
+trainer_1 = Trainer.new("Tim")
+trainer_2 = Trainer.new("Tod")
+trainer_3 = Trainer.new("Taz")
 
+location_1 = Location.new("Last Fitness")
+location_2 = Location.new("Backyard")
+location_3 = Location.new("SWEAT")
+
+client_1 = Client.new("Patrick")
+client_2 = Client.new("Andre")
+client_3 = Client.new("Kentley")
+client_4 = Client.new("Geoff")
+client_5 = Client.new("Ed")
+
+client_1.assign_trainer(trainer_1)
+client_1.assign_trainer(trainer_1)
+client_2.assign_trainer(trainer_2)
+client_3.assign_trainer(trainer_3)
+client_4.assign_trainer(trainer_3)
+client_5.assign_trainer(trainer_3)
+trainer_2.add_location(location_1)
+trainer_2.add_location(location_2)
+trainer_2.add_location(location_3)
+trainer_1.add_location(location_1)
+trainer_3.add_location(location_1)
+trainer_3.add_location(location_2)
+
+# omgwtf_isthisgoodorbad = client_1.trainer.clients[0].trainer.clients[0].trainer.clients[0].name
 #-------------------- testing gym ------------------------
 
 
