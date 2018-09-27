@@ -36,7 +36,26 @@ stay9 = Trip.new("April 15th - April 30th 2021", can, rick)
 #-------------------- testing bakery ------------------------
 
 #-------------------- testing lyft ------------------------
+driver_1 = Driver.new("Dan")
+driver_2 = Driver.new("Deron")
+driver_3 = Driver.new("Dexter")
 
+passenger_1 = Passenger.new("Patrick")
+passenger_2 = Passenger.new("Peter")
+passenger_3 = Passenger.new("Plato")
+
+ride_1 = Ride.new(passenger_1, driver_1, 20.00)
+ride_9 = Ride.new(passenger_3, driver_1, 50.00)
+ride_5 = Ride.new(passenger_2, driver_1, 7.00)
+ride_11 = Ride.new(passenger_3, driver_1, 6.00)
+ride_2 = Ride.new(passenger_1, driver_2, 10.00)
+ride_3 = Ride.new(passenger_1, driver_2, 40.00)
+ride_4 = Ride.new(passenger_1, driver_2, 30.00)
+ride_10 = Ride.new(passenger_3, driver_2, 5.00)
+ride_12 = Ride.new(passenger_2, driver_2, 50.00)
+ride_6 = Ride.new(passenger_3, driver_3, 7.00)
+ride_7 = Ride.new(passenger_2, driver_3, 50.00)
+ride_8 = Ride.new(passenger_1, driver_3, 10.00)
 #-------------------- testing lyft ------------------------
 
 #-------------------- testing gym ------------------------
@@ -66,8 +85,6 @@ trainer_2.add_location(location_3)
 trainer_1.add_location(location_1)
 trainer_3.add_location(location_1)
 trainer_3.add_location(location_2)
-
-# omgwtf_isthisgoodorbad = client_1.trainer.clients[0].trainer.clients[0].trainer.clients[0].name
 #-------------------- testing gym ------------------------
 
 
